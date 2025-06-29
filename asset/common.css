@@ -1,17 +1,21 @@
-body{
+    body{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-  }
+   }
   
-  .topnav {
+    .topnav {
       overflow: hidden;
-      background-color: #333;
+      /* background-color: #333; */
+    }
+
+    header{
+      padding-top: 2rem;
     }
     
     .topnav a {
-      float: left;
+      float: right;
       display: block;
-      color: #f2f2f2;
+      color: black;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -28,7 +32,7 @@ body{
     }
     
     .dropdown {
-      float: left;
+      float: right;
       overflow: hidden;
     }
     
@@ -36,7 +40,7 @@ body{
       font-size: 17px;    
       border: none;
       outline: none;
-      color: white;
+      color: black;
       padding: 14px 16px;
       background-color: inherit;
       font-family: inherit;
